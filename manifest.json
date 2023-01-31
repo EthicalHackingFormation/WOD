@@ -6,8 +6,7 @@
       "newtab" : "newtab.html"
  },
  "background":{
-    "page" :"background.html",
-    "persistent" : "false"
+    "service_worker": "background.js"
  },
- "manifest_version" : 2
+ "manifest_version" : 3
 }

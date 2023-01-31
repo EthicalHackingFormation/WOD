@@ -1,9 +1,10 @@
 //Send Message To Background
-chrome.runtime.sendMessage({name: "message"}, (response) =>{
+chrome.runtime.sendMessage({name: "fetchWords"}, (response) =>{
    
-    //Wait for response
-
-    //Update Display on Content Script 
-    document.querySelector('body').innerHTML= response.text;
+    
+    
+     
+     console.log(response);
+   
      
 });
