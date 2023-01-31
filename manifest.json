@@ -5,5 +5,9 @@
  "chrome_url_overrides" : {
       "newtab" : "newtab.html"
  },
+ "background":{
+    "page" :"background.html",
+    "persistent" : "false"
+ },
  "manifest_version" : 2
 }
